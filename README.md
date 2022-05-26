@@ -30,5 +30,9 @@ Happy for anyone to clone and re-use and do feel free to reach out to me or leav
 **Recommend**: Create a Python Virual Environment (with Python 3.8+), then install required libraries. 
 ```
 python -m venv .env
-pip install -r requirement.txt
+source .env/bin/activate
+pip install -r requirement.txt (or install libraries as neeeded, pretty much sklearn)
+
 ```
+
+Then it is to find a development environment. A lot of people like Jupyer and a lot like VSCode, depends on personal preference. I'd recommend for documenting nb is a lot easier on the eye.
